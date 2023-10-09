@@ -48,11 +48,9 @@ const Navbar = () => {
                 data-bs-toggle="dropdown"
                 aria-expanded="false">
                 <div className="media d-flex align-items-center">
-                  <img
-                    className="avatar rounded-circle"
-                    alt="Image placeholder"
-                    src=""
-                  />
+                  <span>
+                    <i className="fa fa-user-o"></i>
+                  </span>
                   <div className="media-body ms-2 text-dark align-items-center d-none d-lg-block">
                     <span className="mb-0 font-small fw-bold text-gray-900">
                       Admin

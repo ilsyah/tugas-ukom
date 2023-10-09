@@ -1,10 +1,10 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-import Sidenav from "./components/navbar/Sidenav";
 import Login from "./pages/login/Login";
 import Register from "./pages/login/Register";
 import Table from "./pages/admin/table.js";
 import Dashboard from "./Dashboard";
+import Antrian from "./pages/admin/Antrian";
 
 function App() {
   return (
@@ -14,6 +14,7 @@ function App() {
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/register" element={<Register />} />
         <Route path="/table" element={<Table />} />
+        <Route path="/antri" element={<Antrian />} />
       </Routes>
     </Router>
   );

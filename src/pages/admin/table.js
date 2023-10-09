@@ -24,7 +24,7 @@ const Table = () => {
                     <th className="border-0">Poliklinik</th>
                     <th className="border-0">Email</th>
                     <th className="border-0">Address</th>
-                    <th className="border-0 rounded-end">Aksi</th>
+                    <th className="border-0 rounded-end"></th>
                   </tr>
                 </thead>
                 <tbody>

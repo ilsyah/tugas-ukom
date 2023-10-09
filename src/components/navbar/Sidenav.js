@@ -6,7 +6,7 @@ const Sidenav = () => {
   return (
     <>
       <nav className="navbar navbar-dark navbar-theme-primary px-4 col-12 d-lg-none">
-        <a className="navbar-brand me-lg-5" href="../../index.html">
+        <Link className="navbar-brand me-lg-5" href="../../index.html">
           <img
             className="navbar-brand-dark"
             src="../../assets/img/brand/light.svg"
@@ -17,7 +17,7 @@ const Sidenav = () => {
             src="../../assets/img/brand/dark.svg"
             alt="Volt logo"
           />
-        </a>
+        </Link>
         <div className="d-flex align-items-center">
           <button
             className="navbar-toggler d-lg-none collapsed"
@@ -112,16 +112,9 @@ const Sidenav = () => {
             <li className="nav-item">
               <Link to="/dashboard" className="nav-link">
                 <span className="sidebar-icon">
-                  <svg
-                    className="icon icon-xs me-2"
-                    fill="currentColor"
-                    viewBox="0 0 20 20"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <path d="M2 10a8 8 0 018-8v8h8a8 8 0 11-16 0z" />
-                    <path d="M12 2.252A8.014 8.014 0 0117.748 8H12V2.252z" />
-                  </svg>
+                  <i className="fa fa-dashboard"></i>
                 </span>
-                <span className="sidebar-text">Dashboard</span>
+                <span className="sidebar-text ms-2">Dashboard</span>
               </Link>
             </li>
             <li className="nav-item">
@@ -131,20 +124,9 @@ const Sidenav = () => {
                 data-bs-target="#submenu-pages">
                 <span>
                   <span className="sidebar-icon">
-                    <svg
-                      className="icon icon-xs me-2"
-                      fill="currentColor"
-                      viewBox="0 0 20 20"
-                      xmlns="http://www.w3.org/2000/svg">
-                      <path
-                        fillRule="evenodd"
-                        d="M2 5a2 2 0 012-2h8a2 2 0 012 2v10a2 2 0 002 2H4a2 2 0 01-2-2V5zm3 1h6v4H5V6zm6 6H5v2h6v-2z"
-                        clipRule="evenodd"
-                      />
-                      <path d="M15 7h1a2 2 0 012 2v5.5a1.5 1.5 0 01-3 0V7z" />
-                    </svg>
+                    <i className="fa fa-database"></i>
                   </span>
-                  <span className="sidebar-text">Data - Data</span>
+                  <span className="sidebar-text ms-2">Data - Data</span>
                 </span>
                 <span className="link-arrow">
                   <svg
@@ -200,21 +182,21 @@ const Sidenav = () => {
                 href="../../pages/dashboard/dashboard.html"
                 className="nav-link">
                 <span className="sidebar-icon">
-                  <svg
-                    className="icon icon-xs me-2"
-                    fill="currentColor"
-                    viewBox="0 0 20 20"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <path d="M4 3a2 2 0 100 4h12a2 2 0 100-4H4z" />
-                    <path
-                      fillRule="evenodd"
-                      d="M3 8h14v7a2 2 0 01-2 2H5a2 2 0 01-2-2V8zm5 3a1 1 0 011-1h2a1 1 0 110 2H9a1 1 0 01-1-1z"
-                      clipRule="evenodd"
-                    />
-                  </svg>
+                  <i className="fa fa-desktop"></i>
                 </span>
-                <span className="sidebar-text">History</span>
+                <span className="sidebar-text ms-2">History</span>
               </a>
+            </li>
+
+            <li className="nav-item">
+              <Link
+                href="../../pages/dashboard/dashboard.html"
+                className="nav-link">
+                <span className="sidebar-icon">
+                  <i className="fa fa-user"></i>
+                </span>
+                <span className="sidebar-text ms-2">Antri</span>
+              </Link>
             </li>
 
             <li
