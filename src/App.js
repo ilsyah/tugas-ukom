@@ -5,6 +5,7 @@ import Register from "./pages/login/Register";
 import Table from "./pages/admin/table.js";
 import Dashboard from "./Dashboard";
 import Antrian from "./pages/admin/Antrian";
+import "./index.css";
 
 function App() {
   return (

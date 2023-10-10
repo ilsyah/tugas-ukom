@@ -177,6 +177,16 @@ const Sidenav = () => {
                 </ul>
               </div>
             </li>
+
+            <li className="nav-item">
+              <Link to="/antri" className="nav-link">
+                <span className="sidebar-icon">
+                  <i className="fa fa-user"></i>
+                </span>
+                <span className="sidebar-text ms-2">Antri</span>
+              </Link>
+            </li>
+
             <li className="nav-item">
               <a
                 href="../../pages/dashboard/dashboard.html"
@@ -186,17 +196,6 @@ const Sidenav = () => {
                 </span>
                 <span className="sidebar-text ms-2">History</span>
               </a>
-            </li>
-
-            <li className="nav-item">
-              <Link
-                href="../../pages/dashboard/dashboard.html"
-                className="nav-link">
-                <span className="sidebar-icon">
-                  <i className="fa fa-user"></i>
-                </span>
-                <span className="sidebar-text ms-2">Antri</span>
-              </Link>
             </li>
 
             <li
